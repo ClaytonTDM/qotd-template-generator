@@ -1,4 +1,4 @@
-# World of Coding - QOTD Generator
+# World of Coding - Node QOTD Generator
 please don't sue me I made this for fun
 ## Installation
 ```bash
