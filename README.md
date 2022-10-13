@@ -1,5 +1,5 @@
 # World of Coding - QOTD Generator
-
+please don't sue me I made this for fun
 ## Installation
 ```bash
 git clone https://github.com/ClaytonTDM/qotd-template-generator.git
