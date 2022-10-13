@@ -1,11 +1,13 @@
 # World of Coding - QOTD Generator
 
 ## Installation
-```js
+```bash
+git clone https://github.com/ClaytonTDM/qotd-template-generator.git
+cd qotd-template-generator
 npm i
 ```
 
 ## Running
-```js
+```
 npm start
 ```
