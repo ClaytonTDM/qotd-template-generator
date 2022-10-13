@@ -11,3 +11,6 @@ npm i
 ```
 npm start
 ```
+
+
+Want to try out the web version? Click [here](https://github.com/ClaytonTDM/qotd-template-generator/tree/web).
