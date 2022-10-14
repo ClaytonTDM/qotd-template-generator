@@ -24,7 +24,7 @@ $.ajax({
 $.ajax({
     method: 'GET',
     url: 'https://api.api-ninjas.com/v1/facts?limit=1',
-    headers: { 'X-Api-Key': '1HHHukaNEC5Kh3iDOLeZjQ==nxxKAnwy9XbK9bYM'},
+    headers: { 'X-Api-Key': 'PASTE YOUR API KEY HERE'},
     contentType: 'application/json',
     success: function(result) {
     console.log(result);
@@ -43,7 +43,7 @@ $.ajax({
 $.ajax({
     method: 'GET',
     url: 'https://api.api-ninjas.com/v1/quotes',
-    headers: { 'X-Api-Key': '1HHHukaNEC5Kh3iDOLeZjQ==nxxKAnwy9XbK9bYM'},
+    headers: { 'X-Api-Key': 'PASTE YOUR API KEY HERE'},
     contentType: 'application/json',
     success: function(result) {
     console.log(result);
