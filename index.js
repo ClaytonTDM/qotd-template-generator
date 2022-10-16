@@ -7,12 +7,12 @@ console.clear();
 printWithDelay('--------------------------------------------\n\n@QOTD\n');
 $.ajax({
     method: 'GET',
-    url: 'https://api.reddit.com/r/askreddit/new.json',
+    url: 'https://api.reddit.com/r/askreddit/new.json?limit=100',
     success: function(result) {
     console.log(result);
     const txt = JSON.stringify(result);
     var obj = JSON.parse(txt);
-    var postnum = Math.floor(Math.random() * 25);
+    var postnum = Math.floor(Math.random() * 100);
     const qotd = obj.data.children[postnum].data.title;
     var qotdString = "QOTD: " + qotd;
     printWithDelay(qotdString + '\n');
