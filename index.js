@@ -12,7 +12,7 @@ $.ajax({
     console.log(result);
     const txt = JSON.stringify(result);
     var obj = JSON.parse(txt);
-    var postnum = Math.floor(Math.random() * 100);
+    var postnum = Math.floor(Math.random() * 101);
     const qotd = obj.data.children[postnum].data.title;
     var qotdString = "QOTD: " + qotd;
     printWithDelay(qotdString + '\n');
