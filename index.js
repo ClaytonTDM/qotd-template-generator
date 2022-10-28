@@ -4,6 +4,15 @@ const $ = require("jquery")(dom.window);
 setTimeout(function() {
 console.clear();
 }, 3500);
+var emoticon = "";
+var emoticonNum = Math.floor(Math.random() * 3);
+if (emoticonNum == 0) {
+    emoticon = "D";
+} else if (emoticonNum == 1) {
+    emoticon = ">";
+} else {
+    emoticon = ")";
+}
 printWithDelay('--------------------------------------------\n\n@QOTD\n');
 $.ajax({
     method: 'GET',
@@ -60,7 +69,7 @@ $.ajax({
         console.error('Error: ', jqXHR.responseText);
     }
 });
-printWithMoreDelay('Answer in <#691121807960440852> :)\n\n--------------------------------------------');
+printWithMoreDelay('Answer in <#691121807960440852> :' + emoticon + '\n\n--------------------------------------------');
 function printWithDelay(string) {
     setTimeout(function() {
         console.log(string);
